@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Levi";
+    src: url(LEVIBRUSH.TTF);
+}
+
+* {
+    background-color: #f7f7f7;
+}
+
+p, h1 {
+    font-family: "Levi", Arial, Helvetica, sans-serif;
+    color: #7DA2A9;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p{
+    font-size: 35px;
+}
+
+header {
+    padding: 15px;;
+}
