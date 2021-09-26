@@ -8,7 +8,7 @@ header {
     margin-bottom: 20px;
 }
 p, h1 {
-    font-family: "Levi", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     margin: 10px 0;
@@ -55,22 +55,21 @@ textarea{
 .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 1px solid #000000;
+    font-weight: bold;
 }
 
 .past {
     background-color: #d3d3d3;
-    color: black;
 }
 
 .present {
-    background-color: #ff6961;
-    color: black;
+    background-color: red;
+    color: WHITE;
 }
 
 .future {
-    background-color: #77dd77;
-    color: black;
+    background-color: lightgreen;
 }
 
 .saveBtn {
