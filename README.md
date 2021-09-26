@@ -1,7 +1,9 @@
-# Work-Day-Scheduler
+Work Day Scheduler
+
+<img src="./assets/css/Screenshot.jpg">
 
 
-
+https://mike-lane.github.io/Work-Day-Scheduler/
 
 I have been tasked with creating a work day scheduler that meets the following criteria:
 <ul>
