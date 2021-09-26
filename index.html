@@ -5,17 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="jumbotron">
         <h1>Work Day Scheduler</h1>
         <p>A <strong>(not so)</strong> simple calendar app to help schedule your day!</p>
         <p id="date"></p>
     </header>
-    <main>
 
+    <main class="container">
+        <!--9am-->
+        <div class="row">
+            <input class="event-input-block" id="9hour">
+            <div data-hour=9></div>
+        </div>
+        <!--10am-->
+        <div class="row">
+            <input class="event-input-block" id="10hour">
+            <div data-hour=10></div>
+        </div>
+        <!--11am-->
+        <div class="row">
+            <input class="event-input-block" id="11hour">
+            <div data-hour=11></div>
+        </div>
+        <!--12pm-->
+        <div class="row">
+            <input class="event-input-block" id="12hour">
+            <div data-hour=12></div>
+        </div>
+        <!--1pm-->
+        <div class="row">
+            <input class="event-input-block" id="1hour">
+            <div data-hour=1></div>
+        </div>
+        <!--2pm-->
+        <div class="row">
+            <input class="event-input-block" id="2hour">
+            <div data-hour=2></div>
+        </div>
+        <!--3pm-->
+        <div class="row">
+            <input class="event-input-block" id="3hour">
+            <div data-hour=3></div>
+        </div>
+        <!--4pm-->
+        <div class="row">
+            <input class="event-input-block" id="4hour">
+            <div data-hour=4></div>
+        </div>
+        <!--5pm-->
+        <div class="row">
+            <input class="event-input-block" id="5hour">
+            <div data-hour=5></div>
+        </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
