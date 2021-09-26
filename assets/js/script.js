@@ -2,11 +2,11 @@
 //Pulls current date and time and writes it to DATE paragraph
 var currentDate  = new Date(),
     currentDay   = currentDate.getDate() < 10 
-                 ? '0' + currentDate.getDate() 
-                 : currentDate.getDate(),
+                ? '0' + currentDate.getDate() 
+                : currentDate.getDate(),
     currentMonth = currentDate.getMonth() < 9 
-                 ? '0' + (currentDate.getMonth() + 1) 
-                 : (currentDate.getMonth() + 1);
+                ? '0' + (currentDate.getMonth() + 1) 
+                : (currentDate.getMonth() + 1);
 
 switch (new Date().getDay()) {
   case 0:
